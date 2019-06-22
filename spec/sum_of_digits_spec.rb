@@ -8,4 +8,8 @@ describe do
     expect(digital_root(942)).to eq 6
   end
 
+  it "Expect 132189 to equal 6" do
+    expect(digital_root(132189)).to eq 6
+  end
+
 end
