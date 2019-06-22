@@ -12,4 +12,8 @@ describe do
     expect(digital_root(132189)).to eq 6
   end
 
+  it "Expect 493193 to equal 2" do
+    expect(digital_root(493193)).to eq 2
+  end
+
 end
